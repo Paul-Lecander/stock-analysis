@@ -7,6 +7,8 @@
 	
 ## Results
 
+### Comparing Original and Refactored Sccripts
+
 - While refactoring the original script, there were many things that were left the same but some slight changes that made a difference. 
 An example of this was in the way that the data in the worksheets were looped through.
 In the original stock analysis, a *For* loop was created to iterate from 0 to 11 to make looping through the array and accessing each element possible.
