@@ -25,3 +25,4 @@ The second assessment evaluates if the cell's value before the current cell is n
 
 ![Refactor_Steps2to3.png](https://github.com/Paul-Lecander/stock-analysis/blob/main/Refactor_Steps2to3.png)
 
+- The steps 3a through 3c were similar to that in the original stock analysis except the *ticker* was being iterated by the *tickerIndex*. At the end of the loop (3d) the *tickerIndex* increased to the next *ticker* after the last cell's value was not equal to the current *ticker*.
