@@ -1,11 +1,11 @@
 # Stock Analysis Using VBA Script
 
-## Overview of Project: Explain the purpose of this analysis.
+## Overview of Project
 - In this challenge, the objective was to refactor a VBA script to analyze the return of twelve stocks within two different years. 
 - Originally, the macro that was created to look at the twelve stocks but only over one year but now is capable of looking at stocks over two years and at a faster rate. 
 
 	
-## Results: Using images and examples of your code, compare the stock performance between 2017 and 2018, as well as the execution times of the original script and the refactored script.
+## Results
 
 - While refactoring the original script, there were many things that were left the same but some slight changes that made a difference. 
 An example of this was in the way that the data in the worksheets were looped through.
