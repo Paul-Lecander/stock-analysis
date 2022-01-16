@@ -11,7 +11,7 @@
 An example of this was in the way that the data in the worksheets were looped through.
 In the original stock analysis, a *For* loop was created to iterate from 0 to 11 to make looping through the array and accessing each element possible.
 
-[Original_Steps4and5.png](stock-analysis/Original_Steps4and5.png) 
+![Original_Steps4and5.png](https://github.com/Paul-Lecander/stock-analysis/blob/main/Original_Steps4and5.png) 
 
 - The initial loop goes through each ticker and the nested *For* loop starts looping though all rows in the data. 
 Then the initial *If/Then* assessment evaluates if the first cell's value is equivalent to the current ticker, then it is the *Total Volume* + the volume in that row's volume column. 
