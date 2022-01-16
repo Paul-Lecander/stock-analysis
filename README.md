@@ -40,3 +40,10 @@ The second assessment evaluates if the cell's value before the current cell is n
 ![VBA_Challenge_2017.png](https://github.com/Paul-Lecander/stock-analysis/blob/main/VBA_Challenge_2017.png)
 
 ![VBA_Challenge_2018.png](https://github.com/Paul-Lecander/stock-analysis/blob/main/VBA_Challenge_2018.png)
+
+## Summary of Refactoring the Script
+
+### Advantages and Disadvantages of Refactoring Code
+- The advantage of refactoring the code is getting the script to run faster. If the dataset was larger, there would probably be more of a difference in time than the approximately half a second it saved after being refactored. 
+	
+- The disadvantage was the time spent refactoring the code to only get it to run a bit faster than before. If this was in a business setting, it may have been a better use of time to work on a different project than to optimize and test something that isn't that much faster (in absolute time).
