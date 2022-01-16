@@ -20,3 +20,8 @@ The second assessment evaluates if the cell's value before the current cell is n
 - Alternatively, the refactored stock analysis uses 4 arrays (one for the 12 tickers and three for outputting data) and uses a variable *tickerIndex* to access all of the arrays. This can be seen in step 1a and 1b in the refactored script.
 
 ![Refactor_IndexandArrays.png](https://github.com/Paul-Lecander/stock-analysis/blob/main/Refactor_IndexandArrays.png)
+
+- Another key difference was the use of two separate *For* loops. The first *For* loop (2a) was to initialize the *tickerVolumes* to 0 after each loop. The second *For* loop that was created was to loop over all rows in the spreadsheet.
+
+![Refactor_Steps2to3.png](https://github.com/Paul-Lecander/stock-analysis/blob/main/Refactor_Steps2to3.png)
+
