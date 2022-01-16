@@ -16,3 +16,7 @@ In the original stock analysis, a *For* loop was created to iterate from 0 to 11
 - The initial loop goes through each ticker and the nested *For* loop starts looping though all rows in the data. 
 Then the initial *If/Then* assessment evaluates if the first cell's value is equivalent to the current ticker, then it is the *Total Volume* + the volume in that row's volume column. 
 The second assessment evaluates if the cell's value before the current cell is not equivalent to the current ticker, if it is then the current row in column 6 is the *Starting Price*. 
+
+- Alternatively, the refactored stock analysis uses 4 arrays (one for the 12 tickers and three for outputting data) and uses a variable *tickerIndex* to access all of the arrays. This can be seen in step 1a and 1b in the refactored script.
+
+![Refactor_IndexandArrays.png](https://github.com/Paul-Lecander/stock-analysis/blob/main/Refactor_IndexandArrays.png)
