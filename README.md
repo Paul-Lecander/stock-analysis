@@ -28,3 +28,15 @@ The second assessment evaluates if the cell's value before the current cell is n
 ![Refactor_Steps2to3.png](https://github.com/Paul-Lecander/stock-analysis/blob/main/Refactor_Steps2to3.png)
 
 - The steps 3a through 3c were similar to that in the original stock analysis except the *ticker* was being iterated by the *tickerIndex*. At the end of the loop (3d) the *tickerIndex* increased to the next *ticker* after the last cell's value was not equal to the current *ticker*.
+
+### Assessing Original and Refactored Script Speeds
+ 	  
+- The original script took 0.863 seconds to run through all of the data and output it into a new worksheet.
+
+![VBA_Challenge_Originaltime_2018.png](https://github.com/Paul-Lecander/stock-analysis/blob/main/VBA_Challenge_Originaltime_2018.png)
+
+- The refactored scripts were much faster at completing the task with the 2017 analysis taking only 0.125 seconds and the 2018 analysis taking 0.363 seconds. 
+
+![VBA_Challenge_2017.png](https://github.com/Paul-Lecander/stock-analysis/blob/main/VBA_Challenge_2017.png)
+
+![VBA_Challenge_2018.png](https://github.com/Paul-Lecander/stock-analysis/blob/main/VBA_Challenge_2018.png)
