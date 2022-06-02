@@ -7,7 +7,7 @@
 	
 ## Results
 
-### Comparing Original and Refactored Sccripts
+### Comparing Original and Refactored Scripts
 
 - While refactoring the original script, there were many things that were left the same but some slight changes that made a difference. 
 An example of this was in the way that the data in the worksheets were looped through.
